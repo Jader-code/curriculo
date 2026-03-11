@@ -1,0 +1,40 @@
+/* google fonte */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap')
+
+:root {
+    --cor-principal: #4b4b4b;
+    --cor-secundária: #b0a8b9;
+    --cor-cinza: #b0a8b9;
+    --cor-preto-claro: #4b4b4b;
+    --cor-preto: #000000;
+    --cor-branco: #ffffff;
+}
+body{
+    font-family: 'MerriWeather', sans-serif;
+}
+#body {
+    background-color: var(--cor-principal);
+}
+.lead {
+    font-weight: 700;
+}
+#rodape {
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+}
+#ancora {
+    text-decoration: none;
+    color: var(--cor-branco);
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+#ancora:hover {
+    color: var(--cor-cinza);
+    cursor: pointer;
+    text-decoration: underline;
+}
+.habilidades:hoover .badge {
+    background-color: var(--cor-branco) !important;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
