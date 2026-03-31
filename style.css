@@ -2,21 +2,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap')
 
 :root {
-    --cor-principal: #4b4b4b;
-    --cor-secundária: #b0a8b9;
-    --cor-cinza: #b0a8b9;
-    --cor-preto-claro: #4b4b4b;
+    --cor-principal: #2e2f6d;
+    --cor-secundária: #771044;
+    --cor-azul: #2e2f6d
+    --cor-vinho: #771044;
     --cor-preto: #000000;
     --cor-branco: #ffffff;
 }
-body{
-    font-family: 'MerriWeather', sans-serif;
+body {
+    font-family: 'Merriweather', sans-serif;
 }
 #body {
     background-color: var(--cor-principal);
 }
+.funcao {
+    color: var(--cor-branco);
+}
+p {
+    color: var(--cor-branco);
+}
 .lead {
     font-weight: 700;
+    color: var(--cor-branco);
+}
+.titulo_habilidades {
+    font-size: 25px;
+    color: var(--cor-branco);
 }
 #rodape {
     background-color: var(--cor-preto);
@@ -26,15 +37,16 @@ body{
     text-decoration: none;
     color: var(--cor-branco);
     font-size: 20px;
-    transition: 0.3s ease;
+    transition: color 0.3s ease;
 }
 #ancora:hover {
-    color: var(--cor-cinza);
+    color: var(--cor-clara);
     cursor: pointer;
     text-decoration: underline;
 }
-.habilidades:hoover .badge {
+.habilidades:hover .badge {
     background-color: var(--cor-branco) !important;
-    transform: scale(1.05);
+    color: var(--cor-preto);
+    transform: scale(1.15);
     transition: 0.3s;
 }
