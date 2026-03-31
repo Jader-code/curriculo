@@ -40,7 +40,7 @@ p {
     transition: color 0.3s ease;
 }
 #ancora:hover {
-    color: var(--cor-clara);
+    color: var(--cor-azul);
     cursor: pointer;
     text-decoration: underline;
 }
