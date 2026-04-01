@@ -1,5 +1,5 @@
 /* google fonte */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
     --cor-principal: #2e2f6d;
@@ -10,7 +10,7 @@
     --cor-branco: #ffffff;
 }
 body {
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 #body {
     background-color: var(--cor-principal);
@@ -40,7 +40,7 @@ p {
     transition: color 0.3s ease;
 }
 #ancora:hover {
-    color: var(--cor-azul);
+    color: var(--cor-vinho);
     cursor: pointer;
     text-decoration: underline;
 }
